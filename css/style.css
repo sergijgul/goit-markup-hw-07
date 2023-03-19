@@ -340,7 +340,7 @@ color: var(--second-text-color);
   
   .title{
   color:var(--title-text-color);
-  width: 320px;
+  max-width: 320px;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -406,7 +406,7 @@ color: var(--second-text-color);
   margin-bottom: 8px;
   }
   .post-title-text{
-    max-width: 396px;
+    max-width: 320px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -1090,7 +1090,7 @@ display: none;
     
     .sub-form-field-input {
       display: flex;
-      width: 396px;
+      max-width: 320px;
       align-items: center;
       padding: 8px 16px;
       border: 1px solid rgba(255, 255, 255, 0.3);

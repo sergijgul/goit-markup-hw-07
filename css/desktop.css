@@ -1,5 +1,9 @@
 @media screen and (min-width: 1200px) {
     .container{
-        max-width: 1440px;
+        max-width: 1158px;
     } 
+    .section-hero
+    {
+        max-width: 1440px;
+    }
 }
