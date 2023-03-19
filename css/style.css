@@ -41,10 +41,10 @@
   height: auto;
   }
   .container { 
-  max-width: 428px;
-  padding: 0 16px; 
-  margin: 0 auto; 
-  overflow-x: hidden;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
   }
 
   .auth-nav{
@@ -340,13 +340,13 @@ color: var(--second-text-color);
   
   .title{
   color:var(--title-text-color);
-  text-align: center;
-  font-weight: 700;
-    font-size: 30px;
+  width: 320px;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    width: 318px;
-    margin: 0 auto 72px;
   }
   
   .title-button{
