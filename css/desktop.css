@@ -25,6 +25,17 @@
                 rgba(46, 47, 66, 0.7)), url("../images/background-fonex2.jpg");
     }
 }
+.auth-nav{
+    flex-direction: unset;
+    gap: 40px;
+}
+.mail {
+    font-size: 16px;
+}
+
+.phone {
+    font-size: 16px;
+}
 .section-list{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -62,6 +73,7 @@
 }
 
 .post-title-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--second-text-color);
@@ -110,6 +122,7 @@
  }
  .footer-items{
     align-items: baseline;
+    width: 100%;
 
  }
  .footer-social-media{

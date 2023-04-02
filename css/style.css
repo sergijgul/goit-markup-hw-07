@@ -48,7 +48,6 @@
 
   .auth-nav{
   display: none;
-  gap: 40px;
   }
   .header-section{
   background: var(--main-bg-color);
@@ -291,8 +290,7 @@ color: var(--second-text-color);
   line-height: 1.5;
   color: var(--second-text-color);
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+
   
   }
   .mail:hover,
@@ -305,8 +303,6 @@ color: var(--second-text-color);
   line-height: 1.5;
   color: var(--second-text-color);
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
   }
   .phone:hover,
   .phone:focus{
@@ -398,8 +394,12 @@ color: var(--second-text-color);
   padding-bottom: 96px;
   padding-top: 96px;
   }
-  .list{
+  .list-info{
+    margin-bottom: 72px;
   }
+  .list-info:nth-last-child(1) {
+      margin-bottom: 0;
+    }
 
   .list-background{
   display: none;
@@ -423,7 +423,6 @@ color: var(--second-text-color);
     line-height: 24px;
     letter-spacing: 0.02em;
   color: var(--second-text-color);
-  margin-bottom: 72px;
   }
   
   
@@ -531,7 +530,7 @@ display: none;
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
-    column-gap: 24px;
+    column-gap: 16px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -544,7 +543,7 @@ display: none;
   align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  width: 168px;
+  width: 190px;
   height: 88px;
   fill: var(--icon-color);
   transition: fill var(--main-animation), border var(--main-animation);
@@ -763,14 +762,13 @@ display: none;
   
   .footer{
   background-color: var(--second-text-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   }
   .footer-items{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 72px;
   }
   
@@ -852,7 +850,7 @@ display: none;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
-    padding: 72px 16px 24px 16px;
+    padding: 52px 16px 24px 16px;
       transform: translate(-50%, -50%) scale(1);
       background:var(--btn-text-color-active);
       transition: transform var(--main-animation);
